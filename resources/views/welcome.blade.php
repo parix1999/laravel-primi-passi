@@ -56,6 +56,11 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                transition: color .3s, font-size .3s;
+            }
+            .links a:hover {
+                color:black;
+                font-size:16px;
             }
 
             .m-b-md {
@@ -87,6 +92,7 @@
 
                 <div class="links">
                     <a href="http://127.0.0.1:8000/home">Home</a>
+                    <a href="http://127.0.0.1:8000/about-us">About us</a>
                 </div>
             </div>
         </div>

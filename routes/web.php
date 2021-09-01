@@ -24,3 +24,7 @@ Route::get('/home', function () {
     ]
     );
 });
+
+Route::get('/about-us', function () {
+    return view('about-us');
+});
