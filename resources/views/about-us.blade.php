@@ -67,12 +67,14 @@
 <body>
     <div class="bg">
         <div class="container">
-            <h1>NON C'E' MOLTO DA DIRE ;)</h1>
+            <h1>Clicca per vedere il trailer</h1>
             <main>
-                <div class="box-image">
-                    <img src="{{ $src }}" alt="foto-a-caso" />
-                    
-                </div>
+                <a href="{{ $link }}">
+                    <div class="box-image">
+                        <img src="{{ $src }}" alt="foto-a-caso" />
+
+                    </div>
+                </a>
             </main>
     
         </div>

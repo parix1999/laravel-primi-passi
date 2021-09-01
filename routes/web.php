@@ -29,7 +29,8 @@ Route::get('/about-us', function () {
     return view('about-us',
     [
         "src" => "https://i.ytimg.com/vi/8EzvnuqcIpI/maxresdefault.jpg",
-        "backSrc" => "https://www.fumettologica.it/wp-content/uploads/2021/08/spider-man-no-way-home-1.jpg"
+        "backSrc" => "https://www.fumettologica.it/wp-content/uploads/2021/08/spider-man-no-way-home-1.jpg",
+        "link" => "https://www.youtube.com/watch?v=vPgPGC8HGpc"
 
     ]
     );
