@@ -12,7 +12,7 @@
         Hello world!!!
     </h1>
 
-    <p>I'am a home page, collegate with a route !</p>
+    <p>I am a {{ $name }}, collegate with a route !</p>
 
 </body>
 </html>
