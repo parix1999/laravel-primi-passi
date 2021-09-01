@@ -26,5 +26,11 @@ Route::get('/home', function () {
 });
 
 Route::get('/about-us', function () {
-    return view('about-us');
+    return view('about-us',
+    [
+        "src" => "https://i.ytimg.com/vi/8EzvnuqcIpI/maxresdefault.jpg",
+        "backSrc" => "https://www.fumettologica.it/wp-content/uploads/2021/08/spider-man-no-way-home-1.jpg"
+
+    ]
+    );
 });
