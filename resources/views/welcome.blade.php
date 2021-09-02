@@ -91,8 +91,9 @@
                 </div>
 
                 <div class="links">
-                    <a href="http://127.0.0.1:8000/home">Home</a>
-                    <a href="http://127.0.0.1:8000/about-us">About us</a>
+                    
+                    <a href="{{route ('home') }}">Home</a>
+                    <a href="{{ route('about') }}">About us</a>
                 </div>
             </div>
         </div>
